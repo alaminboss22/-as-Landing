@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Cash - সহজ অনলাইন আয়</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #ffffff;
+            scroll-behavior: smooth;
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            transition: all 0.3s ease;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+        }
+        .cta-shadow {
+            box-shadow: 0 10px 25px rgba(0, 163, 255, 0.4);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header class="bg-gray-900 text-white py-4 px-6 sticky top-0 z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <!-- এখানে হেডারের ছোট লোগো লিঙ্ক বসাতে পারেন -->
+                <h1 class="text-2xl font-bold tracking-tighter text-[#00A3FF]">𝗔𝗱 𝗖as𝗵</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#" class="hover:text-[#00A3FF] transition">হোম</a>
+                <a href="#features" class="hover:text-[#00A3FF] transition">ফিচার</a>
+                <a href="#stats" class="hover:text-[#00A3FF] transition">পরিসংখ্যান</a>
+            </nav>
+            <button class="bg-[#00A3FF] px-5 py-2 rounded-full text-sm font-bold hover:bg-white hover:text-[#00A3FF] transition">
+                ডাউনলোড
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 md:py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <!-- Trusted Badge -->
+            <div class="inline-flex items-center space-x-2 bg-blue-50 border border-blue-200 text-[#00A3FF] px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-8">
+                <i data-lucide="shield-check" class="w-4 h-4"></i>
+                <span>Trusted Platform</span>
+            </div>
+
+            <!-- Logo Image Placeholder -->
+            <div class="w-28 h-28 bg-white border-4 border-gray-100 shadow-2xl rounded-full mx-auto mb-8 overflow-hidden flex items-center justify-center">
+                <!-- নিচের src="..." এর ভেতরে আপনার লোগোর লিঙ্কটি দিন -->
+                <img src="https://via.placeholder.com/200" alt="Ad Cash Logo" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Title & Tagline -->
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-6 text-gray-900 tracking-tight">𝗔𝗱 𝗖as𝗵</h2>
+            <p class="text-lg md:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                সহজ কাজ সম্পন্ন করে প্রতিদিন আয় করুন এবং পেমেন্ট নিন সরাসরি <span class="text-[#00A3FF] font-bold">বিকাশ</span> বা <span class="text-[#00A3FF] font-bold">নগদে</span>।
+            </p>
+
+            <!-- CTA Button -->
+            <a href="#" class="inline-flex bg-[#00A3FF] hover:bg-[#0086d1] text-white px-10 py-5 rounded-2xl text-xl font-bold items-center space-x-3 transition-all cta-shadow transform hover:scale-95 active:scale-90">
+                <i data-lucide="rocket" class="w-6 h-6 animate-bounce"></i>
+                <span>অ্যাপ ওপেন করুন</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="bg-gray-50 py-16 border-y border-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="text-4xl font-black text-gray-900 mb-2">১১K+</div>
+                    <div class="text-[#00A3FF] font-bold uppercase text-xs tracking-[0.2em]">সক্রিয় ইউজার</div>
+                </div>
+                <div class="text-center border-y md:border-y-0 md:border-x border-gray-200 py-8 md:py-0">
+                    <div class="text-4xl font-black text-gray-900 mb-2">২৩K+</div>
+                    <div class="text-[#00A3FF] font-bold uppercase text-xs tracking-[0.2em]">পেমেন্ট সম্পন্ন</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-black text-gray-900 mb-2">২৪/৭</div>
+                    <div class="text-[#00A3FF] font-bold uppercase text-xs tracking-[0.2em]">কাস্টমার সাপোর্ট</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Grid Section -->
+    <section id="features" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">আমাদের বিশেষত্ব</h3>
+                <div class="w-20 h-1.5 bg-[#00A3FF] mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div class="feature-card bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm flex flex-col items-start">
+                    <div class="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="zap" class="text-[#00A3FF] w-8 h-8"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-gray-900">সহজ কাজ</h4>
+                    <p class="text-gray-600 leading-relaxed text-lg">খুবই সাধারণ টাস্ক এবং ভিডিও দেখে ঘরে বসেই আপনার স্মার্টফোন দিয়ে ইনকাম শুরু করুন।</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="feature-card bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm flex flex-col items-start">
+                    <div class="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="shield-check" class="text-[#00A3FF] w-8 h-8"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-gray-900">১০০% নিরাপদ</h4>
+                    <p class="text-gray-600 leading-relaxed text-lg">আপনার পরিশ্রমের টাকা এবং ডাটা আমাদের কাছে থাকবে একদম সুরক্ষিত এবং নিরাপদ।</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="feature-card bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm flex flex-col items-start">
+                    <div class="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="wallet" class="text-[#00A3FF] w-8 h-8"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-gray-900">বিকাশ-নগদ উইথড্র</h4>
+                    <p class="text-gray-600 leading-relaxed text-lg">কোনো লুকানো চার্জ ছাড়াই আপনার আয় সরাসরি বিকাশ বা নগদ একাউন্টে ট্রান্সফার করে নিন।</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="feature-card bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm flex flex-col items-start">
+                    <div class="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <i data-lucide="message-circle" class="text-[#00A3FF] w-8 h-8"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold mb-4 text-gray-900">লাইভ সাপোর্ট</h4>
+                    <p class="text-gray-600 leading-relaxed text-lg">যেকোনো টেকনিক্যাল সমস্যায় আমাদের সাথে সরাসরি টেলিগ্রাম বা ইমেইলে যোগাযোগ করুন।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-gray-400 py-16 px-6 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">𝗔𝗱 𝗖as𝗵</h2>
+            <p class="max-w-md mx-auto mb-10 text-gray-500">বাংলাদেশের অন্যতম বিশ্বস্ত মাইক্রো-টাস্ক প্ল্যাটফর্ম। আজই যোগ দিন আমাদের কমিউনিটিতে।</p>
+            
+            <div class="flex justify-center space-x-6 mb-12">
+                <a href="#" class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-[#00A3FF] hover:text-white transition-all">
+                    <i data-lucide="facebook" class="w-5 h-5"></i>
+                </a>
+                <a href="#" class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-[#00A3FF] hover:text-white transition-all">
+                    <i data-lucide="send" class="w-5 h-5"></i>
+                </a>
+                <a href="#" class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center hover:bg-[#00A3FF] hover:text-white transition-all">
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                </a>
+            </div>
+            
+            <div class="text-sm border-t border-gray-900 pt-8">
+                &copy; ২০২৪ Ad Cash. সর্বস্বত্ব সংরক্ষিত।
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Lucide আইকনগুলো চালু করার জন্য
+        lucide.createIcons();
+    </script>
+</body>
+</html>
